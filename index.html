@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>PROGRAMAÇÃO WEB</title>
+
+<style>
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    /* TOPO COM IMAGEM */
+    .topo {
+        position: relative;
+    }
+
+    .topo img {
+        width: 100%;
+        display: block;
+    }
+
+    .titulo-topo {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        max-width: 80%;
+    }
+
+    /* BARRA VERMELHA */
+    .noticias-topo {
+        display: flex;
+        background-color: #c4170c;
+        color: white;
+        padding: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .noticia-topo {
+        width: 33%;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* CONTEÚDO */
+    .conteudo {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .card {
+        width: 33%;
+    }
+
+    .card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .card h2 {
+        color: #c4170c;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .card p {
+        color: #555;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- IMAGEM PRINCIPAL -->
+    <div class="topo">
+        <img src="imagem3.png">
+        <div class="titulo-topo">
+            Trump afirma que 'tudo foi destruído' no Irã e promete 3ª onda de ataques
+        </div>
+    </div>
+
+    <!-- BARRA VERMELHA -->
+    <div class="noticias-topo">
+        <div class="noticia-topo">
+            • Israel ataca reunião que definiria o novo líder do Irã, diz jornal
+        </div>
+
+        <div class="noticia-topo">
+            • Agência: estrondos são ouvidos em Dubai, Abu Dhabi e Doha; SIGA
+        </div>
+
+        <div class="noticia-topo">
+            • General do Irã ameaça centros econômicos do Oriente Médio
+        </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="conteudo">
+
+        <div class="card">
+            <img src="imagem2.png">
+            <h2>Multidão no Irã vai a funeral de crianças; ONU pede apuração</h2>
+            <p>• Escalada nuclear pode ser fatal, diz especialista</p>
+        </div>
+
+        <div class="card">
+            <img src="imagem4.png">
+            <h2>Trump ameaça usar bases da Espanha sem autorização</h2>
+            <p>• O que está por trás do conflito entre EUA e Irã?</p>
+        </div>
+
+        <div class="card">
+            <img src="imagem.png">
+            <h2>Valores da guerra: drones de US$ 20 mil x mísseis de US$ 4 mi</h2>
+            <p>• Emirados criam corredor de segurança para voos</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
